@@ -1,0 +1,26 @@
+.myForm {
+    position: relative;
+    top: 10px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.output {
+    position: absolute;
+    width: 460px;
+    height: 350px;
+    top: 100px;
+    bottom: 100px;
+    border: 1px solid black;
+}
+
+button {
+    position: absolute;
+    bottom: 10px;
+    width: 80px;
+    height: 30px;
+    left: 200px;
+}

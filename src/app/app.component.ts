@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import _ from 'lodash';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  userName = '';
+  isUserNameSet(event:any){
+   return _.isEmpty(this.userName) ? true : false;
+  }
+  clearUserName(){
+    this.userName = '';
+  }
 }
